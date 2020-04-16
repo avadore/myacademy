@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Avatech Academy</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/png">
+    <link rel="shortcut icon" type="image/jpg" href="/favicon.png">
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Rubik%3A%2C400%2C700%2C900%7CRoboto%3A%2C700%2C400%2C900%7CRoboto%3A300%2C300i%2C400%2C400i%2C500%2C500i%2C700%2C700i%2C900%2C900i%7CRubik%3A400%2C400i%2C500%2C500i%2C700%2C700i%2C900%2C900i%7CRoboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRubik%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;display=swap" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel='stylesheet' id='elementor-frontend-css'
+        href='wp-content/cache/busting/1/wp/turitor/wp-content/plugins/elementor/assets/css/frontend.min-2.9.3.css'
+        type='text/css' media='all' />
+    <link data-minify="1" rel='stylesheet' id='elementor-post-2148-css'
+        href='wp-content/cache/min/1/wp/turitor/wp-content/uploads/elementor/css/post-2148-48396cc8f0654b31f6126b6c2db9629d.css'
+        type='text/css' media='all' />
+    <link rel='stylesheet' id='wp-block-library-css' href='wp-includes/css/dist/block-library/style.min.css'
+        type='text/css' media='all' />
+    <link data-minify="1" rel='stylesheet' id='wur_content_css-css'
+        href='wp-content/cache/min/1/wp/turitor/wp-content/plugins/wp-ultimate-review/assets/public/css/content-page-79bb3a2b4c84a6d33cdc4fd04a2f1f36.css'
+        type='text/css' media='all' />
+    <link rel='stylesheet' id='dashicons-css' href='wp-includes/css/dashicons.min.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='asRange-css'
+        href='wp-content/cache/busting/1/wp/turitor/wp-content/plugins/metform/public/assets/css/asRange.min-1.2.1.css'
+        type='text/css' media='all' />
+    <link rel='stylesheet' id='select2-css'
+        href='wp-content/cache/busting/1/wp/turitor/wp-content/plugins/metform/public/assets/css/select2.min-1.2.1.css'
+        type='text/css' media='all' />
+    <link rel='stylesheet' id='flatpickr-css'
+        href='wp-content/cache/busting/1/wp/turitor/wp-content/plugins/elementor/assets/lib/flatpickr/flatpickr.min-4.1.4.css'
+        type='text/css' media='all' />
+    <link data-minify="1" rel='stylesheet' id='metform-ui-css'
+        href='wp-content/cache/min/1/wp/turitor/wp-content/plugins/metform/public/assets/css/metform-ui-6eb1d1e5066cc2ac1c205cfffbaae5ea.css'
+        type='text/css' media='all' />
+    <link data-minify="1" rel='stylesheet' id='metform-style-css'
+        href='wp-content/cache/min/1/wp/turitor/wp-content/plugins/metform/public/assets/css/style-f86c7f2ab4b56497ff15ddaccc81ddab.css'
+        type='text/css' media='all' />
+    <link rel='stylesheet' id='elementskit-framework-css-frontend-css'
+        href='wp-content/plugins/elementskit-lite/libs/framework/assets/css/frontend-style.css' type='text/css'
+        media='all' />
+    <link data-minify="1" rel='stylesheet' id='elementskit-parallax-style-css'
+        href='wp-content/cache/min/1/wp/turitor/wp-content/plugins/turitor-essential/modules/parallax/assets/css/style-462dc2e19fa0cbc735487af62a8006e1.css'
+        type='text/css' media='all' />
+    <link rel='stylesheet' id='elementor-icons-css'
+        href='wp-content/cache/busting/1/wp/turitor/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min-5.6.2.css'
+        type='text/css' media='all' />
+    <link rel='stylesheet' id='elementor-animations-css'
+        href='wp-content/cache/busting/1/wp/turitor/wp-content/plugins/elementor/assets/lib/animations/animations.min-2.9.3.css'
+        type='text/css' media='all' />
+    <link data-minify="1" rel='stylesheet' id='metform-css-formpicker-control-editor-css'
+        href='wp-content/cache/min/1/wp/turitor/wp-content/plugins/metform/controls/assets/css/form-picker-editor-c6982fed5d086e24a7d94a9b9900cba7.css'
+        type='text/css' media='all' />
+    <link data-minify="1" rel='stylesheet' id='elementskit-css-widgetarea-control-editor-css'
+        href='wp-content/cache/min/1/wp/turitor/wp-content/plugins/elementskit-lite/modules/controls/assets/css/widgetarea-editor-2311f2c3cb2b867de8dbf779f4b7343'
+        type='text/css' media='all' />
+    <link data-minify="1" rel='stylesheet' id='elementor-global-css'
+        href='wp-content/cache/min/1/wp/turitor/wp-content/uploads/elementor/css/global-6c0c1e393e580af3605a4ab15aa292da.css'
+        type='text/css' media='all' />
+    <link data-minify="1" rel='stylesheet' id='elementor-post-1766-css'
+        href='wp-content/cache/min/1/wp/turitor/wp-content/uploads/elementor/css/post-1766-b771279c8e5f72a732452a9d80b8c6ad.css'
+        type='text/css' media='all' />
+    <link rel='stylesheet' id='bootstrap-css'
+        href='wp-content/cache/busting/1/wp/turitor/wp-content/themes/turitor/assets/css/bootstrap.min-1585913818.css'
+        type='text/css' media='all' />
+    <link data-minify="1" rel='stylesheet' id='magnific-popup-css'
+        href='wp-content/cache/min/1/wp/turitor/wp-content/themes/turitor/assets/css/magnific-popup-9c6034fe2abb6bebed9fa3aec23f59d0.css'
+        type='text/css' media='all' />
+    <link rel='stylesheet' id='owl-carousel-css'
+        href='wp-content/cache/busting/1/wp/turitor/wp-content/themes/turitor/assets/css/owl.carousel.min-1585913818.css'
+        type='text/css' media='all' />
+    <link data-minify="1" rel='stylesheet' id='turitor-woocommerce-css'
+        href='wp-content/cache/min/1/wp/turitor/wp-content/themes/turitor/assets/css/woocommerce-b1c4b4c763f0ebc41ba7982594e3c423.css'
+        type='text/css' media='all' />
+    <link data-minify="1" rel='stylesheet' id='turitor-gutenberg-custom-css'
+        href='wp-content/cache/min/1/wp/turitor/wp-content/themes/turitor/assets/css/gutenberg-custom-e6a5d0cc20f14591ea081bbe3fca6a78.css'
+        type='text/css' media='all' />
+    <link data-minify="1" rel='stylesheet' id='turitor-style-css'
+        href='wp-content/cache/min/1/wp/turitor/wp-content/themes/turitor/assets/css/master-03448f21a79332a1b92aaa99229031a5.css'
+        type='text/css' media='all' />
+    <link rel="stylesheet" href="styles.css">
+    <link data-minify="1" rel='stylesheet' id='elementskit-vendors-css'
+        href='wp-content/cache/min/1/wp/turitor/wp-content/plugins/elementskit-lite/widgets/init/assets/css/vendors-d13a676183dc7b37da97a820504a6fc4.css'
+        type='text/css' media='all' />
+    <link data-minify="1" rel='stylesheet' id='elementskit-style-css'
+        href='wp-content/cache/min/1/wp/turitor/wp-content/plugins/elementskit-lite/widgets/init/assets/css/style-e7079ceb15d45b35c64a1bde26e34512.css'
+        type='text/css' media='all' />
+    <link data-minify="1" rel='stylesheet' id='elementskit-responsive-css'
+        href='wp-content/cache/min/1/wp/turitor/wp-content/plugins/elementskit-lite/widgets/init/assets/css/responsive-47a12a5b18910407c66144371aa3c231.1d.delaye'
+        type='text/css' media='all' />
+    <link rel='stylesheet' id='learn-press-bundle-css'
+        href='wp-content/plugins/learnpress/assets/css/bundle.min3518.css?nocache=1585913819.4745&amp;ver=3.2.6.5'
+        type='text/css' media='all' />
+    <link data-minify="1" rel='stylesheet' id='learn-press-css'
+        href='wp-content/cache/min/1/wp/turitor/wp-content/plugins/learnpress/assets/css/learnpress-4265bc5def76199cba4266b64860d1f1.css'
+        type='text/css' media='all' />
+    <link data-minify="1" rel='stylesheet' id='elementor-icons-shared-2-css'
+        href='wp-content/cache/min/1/wp/turitor/wp-content/plugins/elementskit-lite/modules/controls/assets/css/ekiticons-532f8f07eb83bc479d33b70f822ce0e3.20.del'
+        type='text/css' media='all' />
+    <link data-minify="1" rel='stylesheet' id='elementor-icons-ekiticons-css'
+        href='wp-content/cache/min/1/wp/turitor/wp-content/plugins/elementskit-lite/modules/controls/assets/css/ekiticons-532f8f07eb83bc479d33b70f822ce0e3.20.del'
+        type='text/css' media='all' />
+    <script>
+        window.LP_DEBUG = true;
+    </script>
+    <script type='text/javascript'
+        src='wp-content/cache/busting/1/wp/turitor/wp-includes/js/jquery/jquery-1.12.4-wp.js'></script>
+    <script type='text/javascript'
+        src='wp-content/cache/busting/1/wp/turitor/wp-includes/js/jquery/jquery-migrate.min-1.4.1.js'></script>
+    <script type='text/javascript'
+        src='wp-content/plugins/wp-ultimate-review/assets/public/script/content-page.js'></script>
+    <script type='text/javascript'
+        src='wp-content/cache/busting/1/wp/turitor/wp-content/plugins/turitor-essential/modules/parallax/assets/js/jarallax-1.4.7.js'></script>
+    <script type='text/javascript'
+        src='wp-content/cache/busting/1/wp/turitor/wp-content/themes/turitor/assets/js/jquery.repeater.min-1585913818.js'></script>
+    <script type='text/javascript'
+        src='wp-content/plugins/learnpress/assets/js/vendor/plugins.all3518.js?nocache=1585913819.4745&amp;ver=3.2.6.5'></script>
+    <script type='text/javascript'
+        src='wp-content/cache/busting/1/wp/turitor/wp-includes/js/underscore.min-1.8.3.js'></script>
+    <script type='text/javascript'>
+        /* <![CDATA[ */
+        var userSettings = {
+            "url": "\/wp\/turitor\/",
+            "uid": "0",
+            "time": "1585913818",
+            "secure": ""
+        }; /* ]]> */
+    </script>
+    <script type='text/javascript' src='/wp-includes/js/utils.min.js'></script>
+    <script type='text/javascript'>
+        /* <![CDATA[ */
+        var lpGlobalSettings = {
+
+            "theme": "turitor",
+            "localize": {
+                "button_ok": "OK",
+                "button_cancel": "Cancel",
+                "button_yes": "Yes",
+                "button_no": "No"
+            }
+        }; /* ]]> */
+    </script>
+    <script type='text/javascript'
+        src='wp-content/plugins/learnpress/assets/js/global3518.js?nocache=1585913819.4745&amp;ver=3.2.6.5'></script>
+    <script type='text/javascript'
+        src='wp-content/plugins/learnpress/assets/js/utils3518.js?nocache=1585913819.4745&amp;ver=3.2.6.5'></script>
+    <script type='text/javascript'
+        src='wp-content/plugins/learnpress/assets/js/frontend/learnpress3518.js?nocache=1585913819.4745&amp;ver=3.2.6.5'></script>
+    <script type='text/javascript'>
+        /* <![CDATA[ */
+        var lpCourseSettings = {
+
+            "id": 160,
+
+            "result": 0,
+            "current_item": "",
+            "items": ""
+        }; /* ]]> */
+    </script>
+    <script type='text/javascript'
+        src='wp-content/plugins/learnpress/assets/js/frontend/course3518.js?nocache=1585913819.4745&amp;ver=3.2.6.5'></script>
+    <script type='text/javascript'
+        src='wp-content/plugins/learnpress/assets/js/frontend/become-teacher3518.js?nocache=1585913819.4745&amp;ver=3.2.6.5'></script>
+
+</head>
+
+<body
+    class="page-template page-template-template page-template-homepage-template page-template-templatehomepage-template-php page page-id-1766 sidebar-active elementor-default elementor-kit-4264 elementor-page elementor-page-1766">
+    <div class="ekit-template-content-markup ekit-template-content-header ekit-template-content-theme-support">
+        <div data-elementor-type="wp-post" data-elementor-id="2148" class="elementor elementor-2148"
+            data-elementor-settings="[]">
+            <div class="elementor-inner">
+                <div class="elementor-section-wrap">
+                    <section
+                        class="elementor-element elementor-element-62492e0 elementor-section-full_width elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section"
+                        data-id="62492e0" data-element_type="section"
+                        data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                        <div class="elementor-container elementor-column-gap-no">
+                            <div class="elementor-row">
+                                <div class="elementor-element elementor-element-ac76307 elementor-column elementor-col-25 elementor-top-column"
+                                    data-id="ac76307" data-element_type="column">
+                                    <div class="elementor-column-wrap elementor-element-populated">
+                                        <div class="elementor-widget-wrap">
+                                            <div class="elementor-element elementor-element-4559465 elementor-widget elementor-widget-turitor-logo"
+                                                data-id="4559465" data-element_type="widget"
+                                                data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}"
+                                                data-widget_type="turitor-logo.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="turitor-widget-logo">
+                                                        <a href=""> <img src="wp-content/uploads/2020/02/white-logo.png"
+                                                                alt="Turitor"> </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="elementor-element elementor-element-3c0ed8c elementor-hidden-tablet elementor-hidden-phone nav-widget elementor-column elementor-col-25 elementor-top-column"
+                                    data-id="3c0ed8c" data-element_type="column">
+                                    <div class="elementor-column-wrap elementor-element-populated">
+                                        <div class="elementor-widget-wrap">
+                                            <div class="elementor-element elementor-element-f9255e7 category-menu d-xxl-none elementor-widget__width-auto elementor-hidden-tablet elementor-hidden-phone elementor-widget elementor-widget-ekit-nav-menu"
+                                                data-id="f9255e7" data-element_type="widget"
+                                                data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}"
+                                                data-widget_type="ekit-nav-menu.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="ekit-wid-con">
+                                                        <div id="ekit-megamenu-category-list"
+                                                            class="elementskit-menu-container elementskit-menu-offcanvas-elements elementskit-navbar-nav-default elementskit_none ekit-nav-menu-one-page-">
+                                                            <ul id="main-menu"
+                                                                class="elementskit-navbar-nav elementskit-menu-po-left">
+                                                                <li id="menu-item-2016"
+                                                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2016 nav-item elementskit-dropdown-has elementskit-mobile-builder-content">
+                                                                    <a href="#"
+                                                                        class="ekit-menu-nav-link ekit-menu-dropdown-toggle">Categories<i
+                                                                            class="elementskit-submenu-indicator"></i></a>
+                                                                    <ul
+                                                                        class="elementskit-dropdown elementskit-submenu-panel">
+                                                                        <li id="menu-item-2008"
+                                                                            class="menu-item menu-item-type-taxonomy menu-item-object-course_category menu-item-2008 nav-item elementskit-mobile-builder-content">
+                                                                            <a href="graphics-design.html"
+                                                                                class=" dropdown-item">Graphics Design
+                                                                                <span class="material-icons"
+                                                                                    style="float:right">lock_open</span></a>
+                                                                        </li>
+                                                                        <li id="menu-item-2009"
+                                                                            class="menu-item menu-item-type-taxonomy menu-item-object-course_category menu-item-2009 nav-item elementskit-mobile-builder-content">
+                                                                            <a onclick="notAvalable()"
+                                                                                class=" dropdown-item">Web
+                                                                                Development <span class="material-icons"
+                                                                                    style="float:right">
+                                                                                    lock
+                                                                                </span></a>
+                                                                        </li>
+                                                                        <li id="menu-item-2010"
+                                                                            class="menu-item menu-item-type-taxonomy menu-item-object-course_category menu-item-2010 nav-item elementskit-mobile-builder-content">
+                                                                            <a onclick="notAvalable()"
+                                                                                class=" dropdown-item">Microsoft Excel
+                                                                                <span class="material-icons"
+                                                                                    style="float:right">lock</span></a>
+                                                                        </li>
+                                                                        <li id="menu-item-2011"
+                                                                            class="menu-item menu-item-type-taxonomy menu-item-object-course_category menu-item-2011 nav-item elementskit-mobile-builder-content">
+                                                                            <a onclick="notAvalable()"
+                                                                                class=" dropdown-item">Video Editing
+                                                                                <span class="material-icons"
+                                                                                    style="float:right">lock</span></a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </li>
+                                                            </ul>
+                                                            <div class="elementskit-nav-identity-panel">
+                                                                <div class="elementskit-site-title">
+                                                                    <a class="elementskit-nav-logo" href=""
+                                                                        target="_self" rel=""> <img
+                                                                            src="wp-content/uploads/2019/11/lovo-v3.png"
+                                                                            alt=""> </a>
+                                                                </div> <button
+                                                                    class="elementskit-menu-close elementskit-menu-toggler"
+                                                                    type="button">X</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="elementor-element elementor-element-8d6e4c9 elementor-widget__width-auto elementor-widget elementor-widget-turitor-course-search"
+                                                data-id="8d6e4c9" data-element_type="widget"
+                                                data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}"
+                                                data-widget_type="turitor-course-search.default">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="elementor-element elementor-element-08bace7 elementor-column elementor-col-25 elementor-top-column"
+                                    data-id="08bace7" data-element_type="column">
+                                    <div class="elementor-column-wrap elementor-element-populated">
+                                        <div class="elementor-widget-wrap">
+                                            <div class="elementor-element elementor-element-ebb0a44 main-menu elementor-widget elementor-widget-ekit-nav-menu"
+                                                data-id="ebb0a44" data-element_type="widget"
+                                                data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}"
+                                                data-widget_type="ekit-nav-menu.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="ekit-wid-con">
+                                                        <div id="ekit-megamenu-main-menu"
+                                                            class="elementskit-menu-container elementskit-menu-offcanvas-elements elementskit-navbar-nav-default elementskit_line_arrow ekit-nav-menu-one-page-">
+                                                            <ul id="main-menu"
+                                                                class="elementskit-navbar-nav elementskit-menu-po-left">
+                                                                <li id="menu-item-19"
+                                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-19 nav-item elementskit-dropdown-has elementskit-mobile-builder-content">
+                                                                    <a href="index.html"
+                                                                        class="ekit-menu-nav-link ekit-menu-dropdown-toggle">Home<i
+                                                                            class="elementskit-submenu-indicator"></i></a>
+                                                                </li>
+                                                                <li id="menu-item-1924"
+                                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1924 nav-item elementskit-mobile-builder-content">
+                                                                    <a href="about-us.html"
+                                                                        class="ekit-menu-nav-link">About</a></li>
+
+                                                                <li id="menu-item-3463"
+                                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3463 nav-item elementskit-mobile-builder-content">
+                                                                    <a href="contact-us.html"
+                                                                        class="ekit-menu-nav-link">Contact-us</a></li>
+                                                            </ul>
+                                                            <div class="elementskit-nav-identity-panel">
+                                                                <div class="elementskit-site-title">
+                                                                    <a class="elementskit-nav-logo" href=""
+                                                                        target="_self" rel=""> <img
+                                                                            src="wp-content/uploads/2019/11/lovo-v3.png"
+                                                                            alt=""> </a>
+                                                                </div> <button
+                                                                    class="elementskit-menu-close elementskit-menu-toggler"
+                                                                    type="button">X</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="banner-area banner-bg" style="background-image:url(../wp-content/uploads/2020/01/contact-us.jpg);">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2 class="banner-title text-white "> Contact-us</h2>
+                    <ol class="breadcrumb text-white data-wow-duration=" 2s">
+                        <li><a href="index.html" class="text-white">Home</a></li> /<li class="text-white">About us</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="post-1077" class="full-width-content post-1077 page type-page status-publish hentry" role="main">
+        <div class="builder-content">
+            <div data-elementor-type="wp-page" data-elementor-id="1077" class="elementor elementor-1077"
+                data-elementor-settings="[]">
+                <div class="elementor-inner">
+                    <div class="elementor-section-wrap">
+                        <section
+                            class="elementor-element elementor-element-df44939 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section"
+                            data-id="df44939" data-element_type="section">
+                            <div class="elementor-container elementor-column-gap-default">
+                                <div class="elementor-row">
+                                    <div class="elementor-element elementor-element-3be289f elementor-column elementor-col-100 elementor-top-column"
+                                        data-id="3be289f" data-element_type="column">
+                                        <div class="elementor-column-wrap elementor-element-populated">
+                                            <div class="elementor-widget-wrap">
+                                                <section
+                                                    class="elementor-element elementor-element-4c36e35 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section"
+                                                    data-id="4c36e35" data-element_type="section">
+                                                    <div class="elementor-container elementor-column-gap-default">
+                                                        <div class="elementor-row">
+                                                            <div class="elementor-element elementor-element-ac807bb elementor-column elementor-col-50 elementor-inner-column"
+                                                                data-id="ac807bb" data-element_type="column">
+                                                                <div
+                                                                    class="elementor-column-wrap elementor-element-populated">
+                                                                    <div class="elementor-widget-wrap">
+                                                                        <div class="elementor-element elementor-element-2894639 elementor-widget elementor-widget-turitor-title"
+                                                                            data-id="2894639" data-element_type="widget"
+                                                                            data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}"
+                                                                            data-widget_type="turitor-title.default">
+                                                                            <div class="elementor-widget-container">
+                                                                                <div
+                                                                                    class="ts-section-title title-left">
+                                                                                    <h2 class="section-title "> <span
+                                                                                            class="sub-title">#Contact</span>
+                                                                                        Get in touch with us</h2> <i
+                                                                                        class=""></i>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="elementor-element elementor-element-811ebe0 elementor-column elementor-col-50 elementor-inner-column"
+                                                                data-id="811ebe0" data-element_type="column">
+                                                                <div
+                                                                    class="elementor-column-wrap elementor-element-populated">
+                                                                    <div class="elementor-widget-wrap">
+                                                                        <div class="elementor-element elementor-element-894fae4 elementor-widget elementor-widget-text-editor"
+                                                                            data-id="894fae4" data-element_type="widget"
+                                                                            data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}"
+                                                                            data-widget_type="text-editor.default">
+                                                                            <div class="elementor-widget-container">
+                                                                                <div
+                                                                                    class="elementor-text-editor elementor-clearfix">
+                                                                                    <p>Let us know what you want to
+                                                                                        know. We want to help people
+                                                                                        learn, grow and achieve more in
+                                                                                        life.</p>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </section>
+                                                <section
+                                                    class="elementor-element elementor-element-be29e4d elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-inner-section"
+                                                    data-id="be29e4d" data-element_type="section">
+                                                    <div class="elementor-container elementor-column-gap-default">
+                                                        <div class="elementor-row">
+                                                            <div class="elementor-element elementor-element-939072e contact-box elementor-column elementor-col-33 elementor-inner-column"
+                                                                data-id="939072e" data-element_type="column"
+                                                                data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                                                <div
+                                                                    class="elementor-column-wrap elementor-element-populated">
+                                                                    <div class="elementor-widget-wrap">
+                                                                        <div class="elementor-element elementor-element-3b94b72 contact-box elementor-widget elementor-widget-elementskit-icon-box"
+                                                                            data-id="3b94b72" data-element_type="widget"
+                                                                            data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}"
+                                                                            data-widget_type="elementskit-icon-box.default">
+                                                                            <div class="elementor-widget-container">
+                                                                                <div class="ekit-wid-con">
+                                                                                    <div
+                                                                                        class="elementskit-infobox text-left icon-lef-right-aligin elementor-animation- media ">
+                                                                                        <div
+                                                                                            class="elementskit-box-header elementor-animation-">
+                                                                                            <div
+                                                                                                class="elementskit-info-box-icon text-center">
+                                                                                                
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="box-body">
+                                                                                            <h3
+                                                                                                class="elementskit-info-box-title">
+                                                                                                Visit Us Facabook:</h3>
+                                                                                            <p>Avatech.Academy</p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="elementor-element elementor-element-57a0aff contact-box elementor-column elementor-col-33 elementor-inner-column"
+                                                                data-id="57a0aff" data-element_type="column"
+                                                                data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                                                <div
+                                                                    class="elementor-column-wrap elementor-element-populated">
+                                                                    <div class="elementor-widget-wrap">
+                                                                        <div class="elementor-element elementor-element-1d64830 contact-box elementor-widget elementor-widget-elementskit-icon-box"
+                                                                            data-id="1d64830" data-element_type="widget"
+                                                                            data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}"
+                                                                            data-widget_type="elementskit-icon-box.default">
+                                                                            <div class="elementor-widget-container">
+                                                                                <div class="ekit-wid-con">
+                                                                                    <div
+                                                                                        class="elementskit-infobox text-left icon-lef-right-aligin elementor-animation- media ">
+                                                                                        <div
+                                                                                            class="elementskit-box-header elementor-animation-">
+                                                                                            <div
+                                                                                                class="elementskit-info-box-icon text-center">
+                                                                                                
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="box-body">
+                                                                                            <h3
+                                                                                                class="elementskit-info-box-title">
+                                                                                                Email:</h3>
+                                                                                            <p>avatech.academy@gmail.com</p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="elementor-element elementor-element-6395ae9 contact-box elementor-column elementor-col-33 elementor-inner-column"
+                                                                data-id="6395ae9" data-element_type="column"
+                                                                data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                                                <div
+                                                                    class="elementor-column-wrap elementor-element-populated">
+                                                                    <div class="elementor-widget-wrap">
+                                                                        <div class="elementor-element elementor-element-da5717a contact-box elementor-widget elementor-widget-elementskit-icon-box"
+                                                                            data-id="da5717a" data-element_type="widget"
+                                                                            data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}"
+                                                                            data-widget_type="elementskit-icon-box.default">
+                                                                            <div class="elementor-widget-container">
+                                                                                <div class="ekit-wid-con">
+                                                                                    <div
+                                                                                        class="elementskit-infobox text-left icon-lef-right-aligin elementor-animation- media ">
+                                                                                        <div
+                                                                                            class="elementskit-box-header elementor-animation-">
+                                                                                            <div
+                                                                                                class="elementskit-info-box-icon text-center">
+                                                                                                <i aria-hidden="true"
+                                                                                                    class="elementkit-infobox-icon fas fa-phone-alt"></i>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="box-body">
+                                                                                            <h3
+                                                                                                class="elementskit-info-box-title">
+                                                                                                Phone:</h3>
+                                                                                            <p>+234-904-7643-824</p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </section>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section
+                            class="elementor-element elementor-element-cd287b2 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section"
+                            data-id="cd287b2" data-element_type="section"
+                            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                            <div class="elementor-container elementor-column-gap-default">
+                                <div class="elementor-row">
+                                    <div class="elementor-element elementor-element-5f68834 elementor-column elementor-col-66 elementor-top-column"
+                                        data-id="5f68834" data-element_type="column">
+                                        <div class="elementor-column-wrap elementor-element-populated">
+                                            <div class="elementor-widget-wrap">
+                                                <div class="elementor-element elementor-element-2ad5dbd elementor-widget elementor-widget-image"
+                                                    data-id="2ad5dbd" data-element_type="widget"
+                                                    data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}"
+                                                    data-widget_type="image.default">
+                                                    <div class="elementor-widget-container">
+                                                        <div class="elementor-image"> <img width="519" height="392"
+                                                                src="/wp-content/uploads/2020/01/contact_image.png"
+                                                                class="attachment-large size-large" alt=""
+                                                                srcset="/wp-content/uploads/2020/01/contact_image.png 519w, /wp-content/uploads/2020/01/contact_image-300x227.png 300w"
+                                                                sizes="(max-width: 519px) 100vw, 519px" /></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <footer class="ts-footer solid-bg-two">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="footer-widget footer-left-widget">
+                        <h3 class="widget-title">Company</h3>
+                        <div class="menu-footer-one-container">
+                            <ul id="menu-footer-one" class="menu">
+                                <li id="menu-item-3850"
+                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3850"><a
+                                        href="#">About</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="widget_text footer-widget footer-four-widget">
+                        <h3 class="widget-title">Get in touch</h3>
+                        <div class="textwidget custom-html-widget">
+                            <ul>
+                                <li><a href="#">Contact Us</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class='footer-bar'></div>
+            <div class="row copyright">
+
+                <div class="col-md-5 align-self-center">
+                    <p class="copyright-text"> Copyright © 2020 <br> Avatech Academy. <br> All Right Reserved.</p>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <link data-minify="1" rel='stylesheet' id='elementor-post-3962-css'
+        href='wp-content/cache/min/1/wp/turitor/wp-content/uploads/elementor/css/post-3962-1f2853689843a93abc1d1f6a22b843e3.css'
+        type='text/css' media='all' />
+    <link data-minify="1" rel='stylesheet' id='elementor-post-1136-css'
+        href='wp-content/cache/min/1/wp/turitor/wp-content/uploads/elementor/css/post-1136-ed4908fe4bca1a9ea1bbc8466f7d5c1a.css'
+        type='text/css' media='all' />
+
+    <script type='text/javascript'
+        src='wp-content/cache/busting/1/wp/turitor/wp-content/plugins/elementskit-lite/widgets/mail-chimp/assets/js/mail-chimp-1.0.js'></script>
+    <script type='text/javascript'
+        src='wp-content/cache/busting/1/wp/turitor/wp-content/plugins/metform/public/assets/js/jquery.validate.min-1.2.1.js'></script>
+    <script type='text/javascript'
+        src='wp-content/cache/busting/1/wp/turitor/wp-content/plugins/metform/public/assets/js/jquery-asRange.min-1.2.1.js'></script>
+    <script type='text/javascript'
+        src='wp-content/cache/busting/1/wp/turitor/wp-content/plugins/metform/public/assets/js/select2.min-1.2.1.js'></script>
+    <script type='text/javascript'
+        src='wp-content/cache/busting/1/wp/turitor/wp-content/plugins/elementor/assets/lib/flatpickr/flatpickr.min-4.1.4.js'></script>
+
+    <script type='text/javascript'
+        src='wp-content/cache/busting/1/wp/turitor/wp-content/plugins/metform/public/assets/js/submission-1.2.1.js'></script>
+
+    <script type='text/javascript'
+        src='wp-content/cache/busting/1/wp/turitor/wp-content/plugins/metform/public/assets/js/count-views-1.2.1.js'></script>
+    <script type='text/javascript'
+        src='wp-content/cache/busting/1/wp/turitor/wp-content/plugins/elementskit-lite/libs/framework/assets/js/frontend-script-1.4.7.js'></script>
+
+    <script type='text/javascript'
+        src='wp-content/plugins/elementskit-lite/widgets/init/assets/js/nav-menu.js'></script>
+    <script type='text/javascript'
+        src='wp-content/plugins/elementskit-lite/widgets/init/assets/js/ui-slim.min.js'></script>
+    <script type='text/javascript'
+        src='wp-content/cache/busting/1/wp/turitor/wp-content/plugins/turitor-essential/modules/parallax/assets/js/TweenMax.min-1.4.7.js'></script>
+    <script type='text/javascript'
+        src='wp-content/cache/busting/1/wp/turitor/wp-content/plugins/turitor-essential/modules/parallax/assets/js/jquery.easing.1.3-1.4.7.js'></script>
+    <script type='text/javascript'
+        src='wp-content/plugins/elementskit-lite/widgets/init/assets/js/tilt.jquery.min.js'></script>
+    <script type='text/javascript'
+        src='wp-content/cache/busting/1/wp/turitor/wp-content/plugins/turitor-essential/modules/parallax/assets/js/anime-1.4.7.js'></script>
+    <script type='text/javascript'
+        src='wp-content/cache/busting/1/wp/turitor/wp-content/plugins/turitor-essential/modules/parallax/assets/js/magician-1.4.7.js'></script>
+    <script type='text/javascript'
+        src='wp-content/cache/busting/1/wp/turitor/wp-content/themes/turitor/assets/js/bootstrap.min-1585913818.js'></script>
+    <script type='text/javascript'
+        src='wp-content/cache/busting/1/wp/turitor/wp-content/themes/turitor/assets/js/popper.min-1585913818.js'></script>
+    <script type='text/javascript'
+        src='wp-content/plugins/elementskit-lite/widgets/init/assets/js/jquery.magnific-popup.min.js'></script>
+    <script type='text/javascript'
+        src='wp-content/cache/busting/1/wp/turitor/wp-content/themes/turitor/assets/js/jquery-mixtub-1585913818.js'></script>
+    <script type='text/javascript'
+        src='wp-content/cache/busting/1/wp/turitor/wp-content/themes/turitor/assets/js/owl.carousel.min-1585913818.js'></script>
+    <script type='text/javascript'
+        src='wp-content/cache/busting/1/wp/turitor/wp-content/themes/turitor/assets/js/jquery.easypiechart.min-1585913818.js'></script>
+    <script type='text/javascript'>
+        /* <![CDATA[ */
+        var turitor_obj = {
+
+            "nonce": "86f5769613",
+            "security": "7f72824c6d",
+            "blog_sticky_sidebar": "no",
+            "logged_in": "",
+            "message_login": "You are not logged in"
+        }; /* ]]> */
+    </script>
+    <script type='text/javascript'
+        src='wp-content/cache/busting/1/wp/turitor/wp-content/themes/turitor/assets/js/script-1585913818.js'></script>
+    <script type='text/javascript' src='../wp-includes/js/wp-embed.min.js'></script>
+    <script type='text/javascript'
+        src='wp-content/cache/busting/1/wp/turitor/wp-content/plugins/elementor/assets/lib/jquery-numerator/jquery-numerator.min-0.2.1.js'></script>
+    <script type='text/javascript'
+        src='wp-content/cache/busting/1/wp/turitor/wp-content/plugins/elementor/assets/js/frontend-modules.min-2.9.3.js'></script>
+    <script type='text/javascript'
+        src='wp-content/cache/busting/1/wp/turitor/wp-includes/js/jquery/ui/position.min-1.11.4.js'></script>
+    <script type='text/javascript'
+        src='wp-content/cache/busting/1/wp/turitor/wp-content/plugins/elementor/assets/lib/dialog/dialog.min-4.7.6.js'></script>
+    <script type='text/javascript'
+        src='wp-content/cache/busting/1/wp/turitor/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min-4.0.2.js'></script>
+    <script type='text/javascript'
+        src='wp-content/cache/busting/1/wp/turitor/wp-content/plugins/elementor/assets/lib/swiper/swiper.min-5.3.0.js'></script>
+    <script type='text/javascript'
+        src='wp-content/cache/busting/1/wp/turitor/wp-content/plugins/elementor/assets/lib/share-link/share-link.min-2.9.3.js'></script>
+    <script type='text/javascript'>
+        var elementorFrontendConfig = {
+            "environmentMode": {
+                "edit": false,
+                "wpPreview": false
+            },
+            "i18n": {
+                "shareOnFacebook": "Share on Facebook",
+                "shareOnTwitter": "Share on Twitter",
+                "pinIt": "Pin it",
+                "downloadImage": "Download image"
+            },
+            "is_rtl": false,
+            "breakpoints": {
+                "xs": 0,
+                "sm": 480,
+                "md": 768,
+                "lg": 1025,
+                "xl": 1440,
+                "xxl": 1600
+            },
+            "version": "2.9.3",
+            "urls": {
+
+            },
+            "settings": {
+                "page": [],
+                "general": {
+                    "elementor_lightbox_enable_counter": "yes",
+                    "elementor_lightbox_enable_fullscreen": "yes",
+                    "elementor_lightbox_enable_zoom": "yes",
+                    "elementor_lightbox_enable_share": "yes",
+                    "elementor_lightbox_title_src": "title",
+                    "elementor_lightbox_description_src": "description"
+                },
+                "editorPreferences": []
+            },
+            "post": {
+                "id": 1766,
+                "title": "Home 5 \u2013 Turitor",
+                "excerpt": "",
+                "featuredImage": false
+            }
+        };
+    </script>
+    <script type='text/javascript'
+        src='wp-content/cache/busting/1/wp/turitor/wp-content/plugins/elementor/assets/js/frontend.min-2.9.3.js'></script>
+    <script type='text/javascript'>
+        /* <![CDATA[ */
+        var mf_plugin = {
+
+        }; /* ]]> */
+    </script>
+    <script type='text/javascript'
+        src='wp-content/cache/busting/1/wp/turitor/wp-content/plugins/metform/public/assets/js/inputs-1.2.1.js'></script>
+    <script type='text/javascript'
+        src='wp-content/cache/busting/1/wp/turitor/wp-content/themes/turitor/assets/js/elementor-1585913818.js'></script>
+    <script type='text/javascript'
+        src='wp-content/cache/busting/1/wp/turitor/wp-content/plugins/elementskit-lite/widgets/init/assets/js/elementor-1.4.7.js'></script>
+    <script type='text/javascript'
+        src='wp-content/cache/busting/1/wp/turitor/wp-content/plugins/turitor-essential/modules/sticky-content/assets/js/jquery.sticky-1.0.2.js'></script>
+    <script type='text/javascript'
+        src='wp-content/cache/busting/1/wp/turitor/wp-content/plugins/turitor-essential/modules/sticky-content/assets/js/main-1.0.2.js'></script>
+    <script type='text/javascript'
+        src='wp-content/cache/busting/1/wp/turitor/wp-content/plugins/turitor-essential/modules/parallax/assets/js/widget-init-1.4.7.js'></script>
+    <script type='text/javascript'
+        src='wp-content/cache/busting/1/wp/turitor/wp-content/plugins/turitor-essential/modules/parallax/assets/js/section-init-1.4.7.js'></script>
+    <script type='text/javascript' src='wp-content/plugins/metform/controls/assets/js/form-picker-editor.js'></script>
+    <script type='text/javascript'
+        src='wp-content/plugins/elementskit-lite/modules/controls/assets/js/widgetarea-editor.js'></script>
+</body>
+
+
+</html>

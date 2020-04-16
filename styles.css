@@ -1,0 +1,286 @@
+
+body {
+    font-family: "Rubik";
+    font-size: 16px
+}
+
+h1 {
+    font-family: "Roboto";
+    font-weight: 700
+}
+
+h2 {
+    font-family: "Roboto";
+    font-weight: 700
+}
+
+h3 {
+    font-family: "Roboto";
+    font-weight: 700
+}
+
+h4 {
+    font-family: "Roboto";
+    font-weight: 700
+}
+
+a,
+.post-meta span i,
+.entry-header .entry-title a:hover,
+.sidebar ul li a:hover {
+    color: #0eb582
+}
+
+.entry-header .entry-title a {
+    color: #333
+}
+
+body {
+    background-color: #fff
+}
+
+.single-intro-text .count-number,
+.sticky.post .meta-featured-post,
+.latest-blog .post .post-meta span:before,
+.sidebar .widget .widget-title:before,
+.pagination li.active a,
+.pagination li:hover a,
+.pagination li.active a:hover,
+.pagination li:hover a:hover,
+.sidebar .widget.widget_search .input-group-btn,
+.tag-lists a:hover,
+.tagcloud a:hover,
+.BackTo,
+.ticket-btn.btn:hover,
+.btn-primary,
+.BackTo,
+.woocommerce ul.products li.product .button,
+.woocommerce ul.products li.product .added_to_cart,
+.woocommerce nav.woocommerce-pagination ul li a:focus,
+.woocommerce nav.woocommerce-pagination ul li a:hover,
+.woocommerce nav.woocommerce-pagination ul li span.current,
+.woocommerce #respond input#submit.alt,
+.woocommerce a.button.alt,
+.woocommerce button.button.alt,
+.woocommerce input.button.alt,
+.sponsor-web-link a:hover i,
+.woocommerce .widget_price_filter .ui-slider .ui-slider-range,
+.woocommerce span.onsale,
+#preloader,
+.header .navbar-container .navbar-light .main-menu>li>a:before,
+.header-nav-right-info li.header-login-user a:hover,
+.header-nav-right-info li.header-cart a:hover,
+.header-nav-right-info li.header-login-user a sup,
+.header-nav-right-info li.header-cart a sup,
+.tab-course-category ul li:before,
+.turitor-events .entry-header .event-meta-cat a:before,
+.single-course:hover,
+.co-single-instructor .co-instructors-socials li a:hover,
+.course-tabs-content .curriculum-content .curricolumn-list li a .curricolumn-preview,
+.archive-widgets ul li.active a,
+.archive-widgets ul li:hover a,
+.course-single-wrap .single-course .course-price-item span,
+.course-single-wrap .single-course .btn-link,
+.single-course .course-category a:before,
+.course-tabs-content ul.nav li a:before,
+.turitor-search-course-form .search-course-button,
+.main-slider-style3 .slider-content .sub-title::before,
+.main-menu .elementskit-navbar-nav>li>a::after,
+.learn-press-checkout .checkout-review-order .lp-list-table thead tr th,
+.btn-primary,
+.learn-press-form-login form button,
+.learnpress-page .lp-button,
+.place-order-action .lp-button,
+#learn-press-content-item #course-item-content-header .toggle-content-item,
+#learn-press-content-item #course-item-content-header .lp-button:hover,
+#learn-press-course-curriculum.course-curriculum ul.curriculum-sections .section-content .course-item.current,
+#learn-press-course-curriculum.course-curriculum ul.curriculum-sections .section-content .course-item .course-item-meta span,
+.course-tabs-content .public-xs-review-box .xs-save-button button,
+.header-login-user a sup,
+.cartbtn a sup,
+.user-dashboard .order-recover .button-recover-order,
+.service-slider .owl-nav .owl-prev:hover,
+.service-slider .owl-nav .owl-next:hover,
+.turitor-events .entry-header .event-time:before,
+.turitor-tab .turitor-navs-tab li a .title-content .content::before,
+.campus-slider .owl-nav .owl-prev:hover,
+.campus-slider .owl-nav .owl-next:hover,
+.user-dashboard #learn-press-profile-nav .learn-press-tabs.tabs li.active>a,
+.user-dashboard #learn-press-profile-nav .learn-press-tabs.tabs li:hover>a,
+.woocommerce ul.products li.product .added_to_cart:hover,
+.woocommerce #respond input#submit.alt:hover,
+.woocommerce a.button.alt:hover,
+.woocommerce button.button.alt:hover,
+.woocommerce input.button.alt:hover,
+.woocommerce .widget_price_filter .ui-slider .ui-slider-handle {
+    background: #0eb582
+}
+
+.btn-primary,
+.header-nav-right-info li.header-login-user a:hover,
+.header-nav-right-info li.header-cart a:hover,
+.btn-primary,
+.learn-press-form-login form button,
+.learnpress-page .lp-button,
+.place-order-action .lp-button,
+.service-slider .owl-nav .owl-prev:hover,
+.service-slider .owl-nav .owl-next:hover,
+.campus-slider .owl-nav .owl-prev:hover,
+.campus-slider .owl-nav .owl-next:hover,
+.owl-carousel .owl-dots .owl-dot.active {
+    border-color: #0eb582
+}
+
+.user-dashboard .lp-profile-content .lp-tab-sections li.active span {
+    border-bottom-color: #0eb582
+}
+
+.single-course:hover .course-shap path:first-of-type {
+    fill: #0eb582
+}
+
+.single-course .course-shap path:last-of-type,
+.single-course .course-shap path:first-of-type {
+    fill: #0eb582;
+    opacity: .5
+}
+
+#learn-press-course-curriculum.course-curriculum ul.curriculum-sections .section-content .course-item.current a:hover {
+    color: #fff
+}
+
+.copyright .footer-social li a i:hover,
+.copyright .copyright-text a,
+.header .navbar-container .navbar-light .main-menu li a:hover,
+.header .navbar-container .navbar-light .main-menu li.active>a,
+.post .entry-header .entry-title a:hover,
+a:hover,
+.header-cd-menu .cat-menu li a:hover,
+.ts-course-category .single-course-category .course-category-title a:hover,
+.tab-course-category ul li.active,
+.turitor-events .entry-header .entry-title a:hover,
+.post .post-footer a:hover,
+.woocommerce ul.products li.product .price,
+.footer-widget ul li a:hover,
+.ts-footer .footer-menu li a:hover,
+.turitor-course-latest h3.post-title a:hover,
+.course-sidebar .course-intro ul li i,
+.turitor-course-latest p,
+.course-tabs-content .curriculum-content .curricolumn-list li a i,
+.course-tabs-content .curriculum-content .curricolumn-list li a:hover,
+.co-single-instructor .co-instructor-title a:hover,
+.course-tabs-content .curriculum-content .curriculmn-title:after,
+.post-navigation span:hover,
+.post-navigation h3:hover,
+.comments-list .comment-reply-link:hover,
+.sideabr-list-widget li i,
+.turitor-tab .turitor-navs-tab li a .title-content .title-icon,
+.user-dashboard .lp-profile-content table td a:hover,
+.user-dashboard .lp-profile-content table th a:hover,
+.user-dashboard .lp-profile-content .lp-list-table td a:hover,
+.user-dashboard .lp-profile-content .lp-list-table th a:hover,
+#learn-press-course-curriculum.course-curriculum ul.curriculum-sections .section-content .course-item .section-item-link:hover,
+.woocommerce ul.products li.product .woocommerce-loop-product__title:hover {
+    color: #0eb582
+}
+
+.service-slider-2.service-slider-list-item li.active h3 {
+    color: #0eb582 !important
+}
+
+.single-course .course-footer .course-price-item .course-price,
+.single-course .course-footer .course-price-item .free-course,
+.btn-primary:hover,
+.btn-primary:active,
+.learn-press-form-login form button:hover,
+.learn-press-form-login form button:active,
+.learnpress-page .lp-button:hover,
+.course-single-wrap .single-course:hover .course-price-item span,
+.course-single-wrap .single-course:hover .btn-link,
+.header--course-meta .course-price span,
+.course-tabs-content .public-xs-review-box .xs-save-button button:hover,
+#learn-press-course-curriculum.course-curriculum ul.curriculum-sections .section-content .course-item.item-preview .course-item-status,
+#learn-press-course-curriculum.course-curriculum ul.curriculum-sections .section-content .course-item.current:before,
+.user-dashboard .lp-profile-content .lp-tab-sections,
+.course-tabs-content ul.nav,
+.tutor-faq .elementskit-accordion .elementskit-btn-link .icon,
+.kd-testimonial .ekit-wid-con .elementskit-profile-info::after,
+.main-slider-style3 .slider-content .btn-wrapper .btn::after,
+.btn-classic .elementor-button:after,
+.kindergarten-nav .elementskit-navbar-nav-default>ul>li>a:before,
+.kindergarten-blog .latest-blog .post .post-footer a:after,
+.learnpress-page .lp-button:active,
+.place-order-action .lp-button:hover,
+.place-order-action .lp-button:active {
+    background-color: #273c66
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.learn-press-form-login form button:hover,
+.learn-press-form-login form button:active,
+.learnpress-page .lp-button:hover,
+.learnpress-page .lp-button:active,
+.place-order-action .lp-button:hover,
+.place-order-action .lp-button:active {
+    border-color: #273c66
+}
+
+.header .navbar-container .navbar-light .main-menu>li>a,
+.header-transparent .header-nav-right-info li,
+.header .navbar-light .main-menu li ul.dropdown-menu li a {
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 700
+}
+
+.ts-footer {
+    background-color: #273c66;
+    padding-top: 200px
+}
+
+.copyright .copyright-text {
+    color: #fff
+}
+img.wp-smiley,
+img.emoji {
+    display: inline !important;
+    border: none !important;
+    box-shadow: none !important;
+    height: 1em !important;
+    width: 1em !important;
+    margin: 0 .07em !important;
+    vertical-align: -0.1em !important;
+    background: none !important;
+    padding: 0 !important
+}
+
+.main-menu .elementskit-navbar-nav>li>a::after {
+    bottom: 25px
+}
+
+@media (max-width:1024px) {
+    .nav-logo img {
+        max-width: 125px
+    }
+}
+
+.instructor-active .owl-item.active:nth-child(3) .instructor-list-wrap .single-instructor-item .hover-item {
+    box-shadow: 0 20px 50px 0 rgba(51, 51, 51, .1);
+    top: 0;
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+    background-image: linear-gradient(to top, #273c66 0%, rgba(39, 60, 102, 0) 100%)
+}
+
+.xs-sidebar-group.isActive .xs-sidebar-widget .social-list li {
+    padding-right: 10px
+}
+
+@media (min-width:768px) and (max-width:900px) {
+    .archive-course-container .archive-course-filter .turitor-course-order {
+        display: contents
+    }
+}
